@@ -30,6 +30,14 @@ other CircuitPython versions and MatrixPortal S3 hardware have not been tested.
 See [Adafruit's MatrixPortal guide](https://learn.adafruit.com/adafruit-matrixportal-m4)
 for hardware preparation and CircuitPython installation.
 
+## Future work: CircuitPython upgrade
+
+A firmware upgrade is deferred for now. The working, hardware-tested baseline
+remains CircuitPython 7.0.0. At a later maintenance session, evaluate a newer
+stable release (10.3.1 was considered on 2026-10-27), back up the board first,
+and validate gallery loading, fades, color-region dimming and optional artwork
+before documenting support. This is a future plan, not a compatibility claim.
+
 ## Install
 
 1. Back up your current board files before replacing the startup program.
