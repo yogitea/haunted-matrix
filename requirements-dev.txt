@@ -1,0 +1,3 @@
+# Desktop tooling only. The installed player uses no external libraries.
+Pillow>=10
+ruff==0.17.3
